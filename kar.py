@@ -46,5 +46,6 @@ def calculator():
 
     else:
         print("Invalid choice! Please select a valid option.")
+        calculator()
 
 calculator()
